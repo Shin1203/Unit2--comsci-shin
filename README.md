@@ -36,7 +36,8 @@ Example- 63 to binary
 binary- 111111
 
 **Logic Gates**
-To express conditions in boolean algebra.
+
+Logic Gates are used to express conditions in boolean algebra.
 2 states- True(1)/False(0) can be expressed in boolean algebra.
 Shows inputs, and results of outputs.
 
@@ -57,7 +58,7 @@ XNORGATE(exclusive not or)- Combining XORGATE and XNORGATE, the output will be 1
 Truth tables are tables that show the values of inputs and outputs (0/1) based on the logic gate.
 
 
-
+![logicgates](logicgates.jpg)
 
 
 
