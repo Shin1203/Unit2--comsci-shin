@@ -79,7 +79,11 @@ Example Diagram
 
 ![logicgatediagram](Logicgatediagram.jpg)
 
+**KMAPs and boolean algebra**
+Kmaps are a method of turning inputs/outputs into boolean algebra
+This works by mapping the possible inputs/outputs on a table, pairing 1s and finding constants and adding them.
 
+![kmap](kmap.jpg)
 
 **CODE**
 ----------
