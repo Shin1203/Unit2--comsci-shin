@@ -11,3 +11,19 @@ Counting in Binary is as follows-
 
 ![BinaryTable](binarycountingtable.png)
 
+Other Examples-
+Base 4- 0,1,2,3,10,11,12,13,20,21,22,23,30...
+Base 8- 0,1,2,3,4,5,6,7,10,11,12,13,14,15,16,17...
+
+**Conversion of Binary-Decimaal and Vice Versa**
+From Binary-Decimal
+-Line up the squares of 2- starting from 2^0 at the first digit, 2^1 , 2^2, and on and on.
+-For every digit, if there is a 0, neglect the power of two that is assosciated with the digit
+-For every digit, if there is a 1, add the power of two that is assosciated with the digit to a sum.
+-The sum is your decimal number
+
+Example- 10011011 to decimal
+8 digits- left to right - 1, 2, 4, 8, 16, 32, 64, 128
+There are 1's on the 1st,2nd,4th,5th,8th digits
+Add the powers of two corresponding to digits- 1+2+8+16+128
+Decimal = 155
