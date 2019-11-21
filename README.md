@@ -27,3 +27,10 @@ Example- 10011011 to decimal
 There are 1's on the 1st,2nd,4th,5th,8th digits
 Add the powers of two corresponding to digits- 1+2+8+16+128
 Decimal = 155
+
+From Decimal-Binary
+divide decimal number by 2 until reaching 0, for every remainder, a 1, for every division without remainder, 0
+
+Example- 63 to binary
+63/2 = 31 r1 . 31/2 = 15 r1, 15/2 = 7 r1, 7/2 = 3 r1, 3/2 = 1 r1, 1/2 = 0 r1
+binary- 111111
