@@ -75,9 +75,9 @@ These are the rules of Boolean Algebra
 ![algebrabooleanrules](algebrabooleanrules.gif)
 
 
-Example Diagrams
+Example Diagram
 
-
+![logicgatediagram](Logicgatediagram.jpg)
 
 
 
