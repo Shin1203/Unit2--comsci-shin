@@ -35,6 +35,10 @@ Example- 63 to binary
 63/2 = 31 r1 . 31/2 = 15 r1, 15/2 = 7 r1, 7/2 = 3 r1, 3/2 = 1 r1, 1/2 = 0 r1
 binary- 111111
 
+**Logic Gates**
+
+
+
 
 **CODE**
 ----------
@@ -57,3 +61,5 @@ to activate led
 High-on
 ``digitalwirte(red, LOW);``
 Low-off
+
+For loops, if, etc.
