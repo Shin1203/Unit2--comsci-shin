@@ -118,5 +118,88 @@ Here is the arduino circuitry
 ![arduino](tablearduino.png)
 
 
+The code:
+1.)create integers for every button and light, in void setup define buttons and lights as inputs and outputs
+2.)Define "state" values which means a button has been pressed, StateA for button  A, StateB for button B, StateC for button C. These "state" variables will work to shorten code in if statements
+3.)create if statements that correspond to each condition- for example for 001, ``if((!stateA && !stateB && stateC)){ digitalWrite(light1, HIGH); digitalWrite(light2, HIGH); }``
+4.) repeat this process for every input condition.
+
+The code is as follows
+``int buttonA = 13;
+int buttonB = 12;
+int buttonC = 11;
+int light1 = 3;
+int light2 =4;
+int stateA = 0;
+int stateB = 0;
+int stateC = 0;
 
 
+
+void setup()
+{
+  pinMode(buttonA, INPUT);
+  pinMode(buttonB, INPUT);
+  pinMode(buttonC, INPUT);
+  pinMode(light1, OUTPUT);
+  pinMode(light2, OUTPUT);
+}
+
+
+void loop()
+{
+  
+  stateA = digitalRead(buttonA);
+  stateB = digitalRead(buttonB);
+  stateC = digitalRead(buttonC);
+  if((!stateA && !stateB && !stateC)){
+    digitalWrite(light1, HIGH);
+ 
+      digitalWrite(light2, HIGH);
+}
+
+if((!stateA && !stateB && stateC)){
+    digitalWrite(light1, HIGH);
+  
+      digitalWrite(light2, HIGH);
+}
+
+
+
+if((!stateA && stateB && !stateC)){
+    digitalWrite(light1, HIGH);
+  
+      digitalWrite(light2, LOW);
+}
+
+
+if((!stateA && stateB && stateC)){
+    digitalWrite(light1, HIGH);
+  
+      digitalWrite(light2, LOW);
+}
+
+if((stateA && !stateB && !stateC)){
+    digitalWrite(light1, LOW);
+  
+      digitalWrite(light2, HIGH);
+}
+
+if((stateA && !stateB && stateC)){
+    digitalWrite(light1, HIGH);
+  
+      digitalWrite(light2, HIGH);
+}
+
+ if((stateA && stateB && !stateC)){
+    digitalWrite(light1, HIGH);
+  
+      digitalWrite(light2, HIGH);
+} 
+  
+  if((stateA && stateB && stateC)){
+    digitalWrite(light1, HIGH);
+  
+      digitalWrite(light2, HIGH);
+}
+}``
