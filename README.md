@@ -125,7 +125,7 @@ The code:
 4.) repeat this process for every input condition.
 
 The code is as follows
-``
+
 
 int buttonA = 13;
 int buttonB = 12;
@@ -205,4 +205,4 @@ if((stateA && !stateB && stateC)){
       digitalWrite(light2, HIGH);
 }
 }
-``
+
