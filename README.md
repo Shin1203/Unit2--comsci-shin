@@ -62,4 +62,6 @@ High-on
 ``digitalwirte(red, LOW);``
 Low-off
 
-For loops, if, etc.
+**Coding in Arduino C vs BASH**
+Similarities can be found with bash, but syntax is slightly different
+
