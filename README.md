@@ -41,11 +41,17 @@ To express conditions in boolean algebra.
 Shows inputs, and results of outputs.
 
 NOTGATE- Turns 1 input into opposite as output- 1->0, 0->1.
+
 ANDDGATE- Has 2 inputs, 1 output. if both inputs are 1, output becomes 1, all other conditions result in output 0
+
 NANDGATE- Serves as an And gate with a Not following it.outputs are opposite of AndGate. Output is only 0 when both inputs are 1.
+
 ORGATAE- If one of the two inputs are 1, the output will be 1, both inputs can be 1 and output will still be 1
+
 NORGATE- If one of the two inputs are 1, the output will be 0, only instance of  output=1 is when both inputs are 0
+
 XORGATE(exclusive or)- If one of the two inputs are 1, the  output will be 1, if both inputs are 1, output will be 0.
+
 XNORGATE(exclusive not or)- Combining XORGATE and XNORGATE, the output will be 1 if both inputs are 0, or if both inputs are 1.
 
 Truth tables are tables that show the values of inputs and outputs (0/1) based on the logic gate.
