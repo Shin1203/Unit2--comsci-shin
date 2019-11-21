@@ -41,5 +41,5 @@ binary- 111111
 Learning to use arduino
 1 configuring 3leds 
 
-
+![arduinoledbasic](Screenshot(137).png)
 
