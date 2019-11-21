@@ -70,7 +70,12 @@ A=Input1 B=Input2
 
 ![algebraboolean](algebraboolean.jpg)
 
+These are the rules of Boolean Algebra
 
+![algebrabooleanrules](algebrabooleanrules.gif)
+
+
+Example Diagrams
 
 
 
