@@ -125,7 +125,8 @@ The code:
 4.) repeat this process for every input condition.
 
 The code is as follows
-``int buttonA = 13;
+``
+int buttonA = 13;
 int buttonB = 12;
 int buttonC = 11;
 int light1 = 3;
