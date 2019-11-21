@@ -156,35 +156,30 @@ void loop()
   stateC = digitalRead(buttonC);
   if((!stateA && !stateB && !stateC)){
     digitalWrite(light1, HIGH);
- 
-      digitalWrite(light2, HIGH);
+ digitalWrite(light2, HIGH);
 }
 
 if((!stateA && !stateB && stateC)){
     digitalWrite(light1, HIGH);
-  
-      digitalWrite(light2, HIGH);
+  digitalWrite(light2, HIGH);
 }
 
 
 
 if((!stateA && stateB && !stateC)){
     digitalWrite(light1, HIGH);
-  
-      digitalWrite(light2, LOW);
+  digitalWrite(light2, LOW);
 }
 
 
 if((!stateA && stateB && stateC)){
     digitalWrite(light1, HIGH);
-  
-      digitalWrite(light2, LOW);
+  digitalWrite(light2, LOW);
 }
 
 if((stateA && !stateB && !stateC)){
     digitalWrite(light1, LOW);
-  
-      digitalWrite(light2, HIGH);
+  digitalWrite(light2, HIGH);
 }
 
 if((stateA && !stateB && stateC)){
@@ -195,14 +190,12 @@ if((stateA && !stateB && stateC)){
 
  if((stateA && stateB && !stateC)){
     digitalWrite(light1, HIGH);
-  
-      digitalWrite(light2, HIGH);
+    digitalWrite(light2, HIGH);
 } 
   
   if((stateA && stateB && stateC)){
     digitalWrite(light1, HIGH);
-  
-      digitalWrite(light2, HIGH);
+    digitalWrite(light2, HIGH);
 }
 }
 
