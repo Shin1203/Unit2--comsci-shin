@@ -43,3 +43,17 @@ Learning to use arduino
 
 ![arduinoledbasic](basicled.png)
 
+before void setup,
+define each light as int based on connected port
+``int red = 10;``
+
+During void setup,
+define light as output (buttons will be input)
+``pinMode(red, Output);`` [where int "red" shows pinnumber, can be replaced by real number]
+
+During void loop, (process)
+to activate led 
+``digitalwrite(red, HIGH);``
+High-on
+``digitalwirte(red, LOW);``
+Low-off
