@@ -61,6 +61,17 @@ Truth tables are tables that show the values of inputs and outputs (0/1) based o
 ![logicgates](logicgates.jpg)
 
 
+These Logic gates can be used in diagrams to simplify boolean problems, and construct code that is more efficient, as the diagrams will show you the necessary outputs, and will save you from coding each conddition seperately.
+These logic gate diagrams can be converted into boolean algebra
+
+The logic gates expressed in boolean algebra are as follows, 
+F=output
+A=Input1 B=Input2
+
+![algebraboolean](algebraboolean.jpg)
+
+
+
 
 
 
