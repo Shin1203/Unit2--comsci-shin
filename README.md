@@ -85,6 +85,16 @@ This works by mapping the possible inputs/outputs on a table, pairing 1s and fin
 
 ![kmap](kmap.jpg)
 
+
+**Segments Converter**
+
+Task- using leds, make a number display going from 0-7 which operates on 3 buttons
+Solution- Make a truth table, inputs are A B C, line numbers 0-7 as outputs, then individually look at which leds will have value 1, 0 for each number displayed, using these values, make kmaps to figure out what to code.
+
+
+
+
+
 **CODE**
 ----------
 Learning to use arduino
@@ -198,4 +208,6 @@ if((stateA && !stateB && stateC)){
     digitalWrite(light2, HIGH);
 }
 }
+
+
 
