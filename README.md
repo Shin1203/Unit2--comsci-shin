@@ -107,6 +107,16 @@ High-on
 ``digitalwirte(red, LOW);``
 Low-off
 
-**Coding in Arduino C vs BASH**
-Similarities can be found with bash, but syntax is slightly different
+3 Buttons, 2 leds, according to table
+
+We had to replicate the input/output results of a tabale with 3 buttons and 2 led, this is the table
+
+![table](table.png)
+
+Here is the arduino circuitry
+
+![arduino](tablearduino.png)
+
+
+
 
