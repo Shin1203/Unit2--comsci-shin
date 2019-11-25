@@ -1,7 +1,19 @@
 # Unit2--comsci-shin
 
-**DEVELOPMENT**
+**Project DEVELOPMENT**
 ----------------
+
+
+
+
+
+
+
+
+
+
+**CLASSWORK**
+---------------
 Making a binary counter that can count to 15
 
 **Counting in Different Bases**
@@ -93,6 +105,14 @@ Solution- Make a truth table, inputs are A B C, line numbers 0-7 as outputs, the
 
 ![numbers](numbers.jpg)
 
+
+**Usability**
+Definition: Ease of access and use of a product, to achieve its goal.
+citation-https://www.interaction-design.org/literature/topics/usability
+
+**Human-Centered Design (HCD)**
+Discoverability- when a product is designed in such a way that the user can tell its functions/capabilities from looking/interacting with it.
+Feedback- 
 
 
 **CODE**
