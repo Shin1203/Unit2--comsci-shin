@@ -8,61 +8,7 @@ IDEA- Make the left button cycle from a-z, right button to select alphabetical l
 Implementation- Make array with entire alphabet, when left button pressed, cycle in the array from a-z-a-z, when right button pressed, add the current character in array to the word, press both buttons to relay word to user.
 
 code 
-``
-int buttonA = 8;
-int buttonB = 9;
-char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-int selnum = 0;
-int stateA = 0;
-int stateB = 0;
-String text="";
-void setup()
-{
-  Serial.begin(9600);
-  pinMode(buttonA, INPUT);
-  pinMode(buttonB, INPUT);
- Serial.println(alphabet[selnum]);
-}
-
-void loop()
-{
-	stateA = digitalRead(buttonA);
-    stateB = digitalRead(buttonB);
-  
-  if((stateA && !stateB)){
-   selnum = selnum + 1; 
-    delay(0);
-  	Serial.print("Selected word is :");
-    Serial.println(alphabet[selnum]);
-    
-  }
-   
-  if((!stateA && stateB)){
-    text+=(alphabet[selnum]);
-    delay(1000);
-    Serial.print("input word so far is:");
-    Serial.println(text);
-    
-    
-  }
-  
-  if((stateA && stateB)){
-   delay(500);
-    Serial.print(text);
-  }
-  if((selnum>26)){
-   selnum = -1; 
-  }
-  
-}
-
-
-
-
-
-
-``
-
+![alphabet](Alphabet.png)
 
 **CLASSWORK**
 ---------------
