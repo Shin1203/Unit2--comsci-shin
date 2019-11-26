@@ -112,6 +112,11 @@ citation-https://www.interaction-design.org/literature/topics/usability
 Discoverability- when a product is designed in such a way that the user can tell its functions/capabilities from looking/interacting with it.
 Feedback- 
 
+**Binary- Hexadecimal**
+Hexadecimals are ussedas shortened dways to expresss binary.
+
+![hexatable](hexadecimal.png)
+
 
 **CODE**
 ----------
