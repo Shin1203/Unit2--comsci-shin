@@ -117,7 +117,7 @@ Feedback-
 
 **Binary- Hexadecimal**
 Hexadecimals are used as shortened ways to expresss binary.
-
+It utilizes base 16, using characters 0-9-A-F
 
 
 
