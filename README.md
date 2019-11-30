@@ -104,7 +104,10 @@ Solution- Make a truth table, inputs are A B C, line numbers 0-7 as outputs, the
 ![numbers](numbers.jpg)
 
 
-**Usability**
+
+
+
+**What Is Usability???**
 Definition: Ease of access and use of a product, to achieve its goal.
 citation-https://www.interaction-design.org/literature/topics/usability
 
@@ -113,7 +116,11 @@ Discoverability- when a product is designed in such a way that the user can tell
 Feedback- 
 
 **Binary- Hexadecimal**
-Hexadecimals are ussedas shortened dways to expresss binary.
+Hexadecimals are used as shortened ways to expresss binary.
+
+
+
+
 
 ![hexatable](hexadecimal.png)
 
