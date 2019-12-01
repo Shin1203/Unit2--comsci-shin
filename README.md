@@ -4,7 +4,11 @@
 ----------------
 1.[Planning](#planning)
 
-****Planning
+**Planning**
+
+Defining the Problem
+--------------------
+
 
 
 **2 buttons to alphabetical words**
