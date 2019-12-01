@@ -4,10 +4,18 @@
 ----------------
 1.[Planning](#planning)
 
-**Planning**
+**Project Planning**
+------------------
+**Defining the Problem**
 
-Defining the Problem
---------------------
+The year is 2050, there is an established Moon base and Mars base. A communication system must be created between earth and mars, and moon and mars. The problem is that the Earth station can only communicate with morse, while the moon station can only use binary. This communication system has to have an input of english, and output of morse/binary, using only 2 button inputs as well as leds and buzzers.
+
+**Sucess Criterions**
+-Operator can type from english alphabet, and send results in binary/morse
+-Characters can be deleted
+-2 buttons only
+-Usability should be optimal for user-No knowledge of binary/morse required, input interface should be in english alphabets.
+-Send function
 
 
 
