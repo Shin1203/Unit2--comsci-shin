@@ -1,7 +1,12 @@
 # Unit2--comsci-shin
 
-**Project DEVELOPMENT**
+**Project**
 ----------------
+1.[Planning](#planning)
+
+****Planning
+
+
 **2 buttons to alphabetical words**
 TASK- Create a program that turns 2 button inputs into words, then print them to serial monitor
 IDEA- Make the left button cycle from a-z, right button to select alphabetical letter to add to word, both buttons to print word.
