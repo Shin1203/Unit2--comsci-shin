@@ -10,7 +10,7 @@ Implementation- Make array with entire alphabet, when left button pressed, cycle
 code 
 ![alphabet](Alphabet.png)
 
-**CLASSWORK**
+**CLASSWORK and Development**
 ---------------
 Making a binary counter that can count to 15
 
