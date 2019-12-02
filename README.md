@@ -20,7 +20,7 @@ Only 2 buttons
 2-3 Lights
 1 LCD monitor
 Buzzers
--
+
 
 **Conditions and problems**
 -How to dissplay mssg in English?
