@@ -17,7 +17,11 @@ The year is 2050, there is an established Moon base and Mars base. A communicati
 -Usability should be optimal for user-No knowledge of binary/morse required, input interface should be in english alphabets.
 -Send function
 
-
+**Conditions and problems**
+-How to dissplay mssg in English?
+-How to switch between input (Rx) and sending (7x)
+-Morse vs binary
+-LED limitations- only 2-3 bulbs per station
 
 **2 buttons to alphabetical words**
 TASK- Create a program that turns 2 button inputs into words, then print them to serial monitor
