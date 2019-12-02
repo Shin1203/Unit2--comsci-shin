@@ -8,14 +8,19 @@
 ------------------
 **Defining the Problem**
 
-The year is 2050, there is an established Moon base and Mars base. A communication system must be created between earth and mars, and moon and mars. The problem is that the Earth station can only communicate with morse, while the moon station can only use binary. This communication system has to have an input of english, and output of morse/binary, using only 2 button inputs as well as leds and buzzers.
+The year is 2050, there is an established Moon base and Mars base. A communication system must be created between earth and mars, and moon and mars. The problem is that the Earth station can only communicate with morse, while the Moon station can only use binary. This communication system has to have an input of english, and output of morse/binary, using only 2 button inputs as well as leds and buzzers. Must also be able to recieve messages- type in binary/morse convert to english.
 
 **Sucess Criterions**
--Operator can type from english alphabet, and send results in binary/morse
--Characters can be deleted
--2 buttons only
--Usability should be optimal for user-No knowledge of binary/morse required, input interface should be in english alphabets.
--Send function
+MOON BASE OPERATIONS
+-Turn Morse into English
+-Turn English into Binary
+-Must be easy to use- (operator does not need to understand morse/binary)
+-Materials used has to be
+Only 2 buttons
+2-3 Lights
+1 LCD monitor
+Buzzers
+-
 
 **Conditions and problems**
 -How to dissplay mssg in English?
