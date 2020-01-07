@@ -123,3 +123,35 @@ printf("Coordinate lies in quadrant 4");
   return 0;
 }
 ```
+task 6
+ ```
+#include <stdio.h>
+
+int main(void) {
+int math=0;
+int phy=0;
+int chem=0;
+  printf("Enter your math grade\n");
+  scanf("%d", &math);
+    printf("Enter your physics grade\n");
+  scanf("%d", &phy);
+    printf("Enter your chemistry grade\n");
+  scanf("%d", &chem);
+
+ /*totals are calculated by creating an integer which adds values of all 3 subjects*/
+  int total=(math+phy+chem);
+  int mathphy=(math+phy);
+  /* following if statement checks if conditions are met for eligibility of admission*/
+  if ( math >= 65 && phy >= 55 && chem >= 50 && total >= 180) {
+    printf("The candidate is eligible for admisson\n");
+  }
+ else if ( mathphy >= 140){
+   printf("The candidate is eligible for admisson\n");
+ }
+ else {
+   printf("The candidate is not eligible for admission\n");
+ }
+  return 0;
+}
+```
+ 
