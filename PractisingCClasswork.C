@@ -6,7 +6,8 @@ int main(void) {
   int num=0;
   printf("Enter number\n");
   scanf("%d" ,&num);
-  /*Using the % operator, the number is divided by 2, the outcomes will be the remainder, if the remainder is 0 the number perfectly divided into 2, therefore it is even, if not the number is odd  */
+  /*Using the % operator, the number is divided by 2, the outcomes will be the remainder, 
+  if the remainder is 0 the number perfectly divided into 2, therefore it is even, if not the number is odd  */
   if ( num%2 == 0 ) {
     printf("number is even\n");
   }
@@ -25,7 +26,8 @@ int main(void) {
   int num=0;
   printf("Enter number\n");
   scanf("%d" ,&num);
-/*Using the if operator, when entered number is bigger than 0, message is printed showing that number is positive, and if not message is shown that number is negative*/
+/*Using the if operator, when entered number is bigger than 0, message is printed showing that number is positive,
+and if not message is shown that number is negative*/
   if ( num > 0 ){
     printf("Number is positive\n");
   }
@@ -68,7 +70,10 @@ int main(void) {
   scanf("%d" ,&num2);
     printf("Enter number 3\n");
   scanf("%d" ,&num3);
-\*The following if statement checks if every entered number is bigger than the other two, if the condition is met, then a message will print which number is the biggest, with the else statement, if all three numbers are the same a different message is printed *\
+  
+\*The following if statement checks if every entered number is bigger than the other two, 
+if the condition is met, then a message will print which number is the biggest,
+with the else statement, if all three numbers are the same a different message is printed *\
 if ( num1 > num2 && num1 > num3 ) {
   printf("The biggest number is the first, %d", num1);
 }
