@@ -162,6 +162,15 @@ https://repl.it/repls/SugaryQuarterlyTrials
 Task 2-Write a C program that checks if a year provided by the user is a gap year
 https://repl.it/repls/NumbWeakServers
 
+Classwork on C (1/8/2020)
+
+1.https://repl.it/repls/DirectShockingMotion
+2.https://repl.it/repls/TreasuredIdealAccess
+
+
+
+
+
 
 **CODE**
 ----------
