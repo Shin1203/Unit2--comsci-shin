@@ -158,9 +158,9 @@ It utilizes base 16, using characters 0-9-A-F
 Introduction homework tasks (1/7/2020) 
 
 Task 1- Write a C program that checks if two integers entered by the user are equal
-
+https://repl.it/repls/SugaryQuarterlyTrials
 Task 2-Write a C program that checks if a year provided by the user is a gap year
-
+https://repl.it/repls/NumbWeakServers
 
 
 **CODE**
