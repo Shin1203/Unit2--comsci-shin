@@ -1,4 +1,5 @@
 Task 1
+```
 #include <stdio.h>
 
 int main(void) {
@@ -14,9 +15,10 @@ int main(void) {
   }
   return 0;
 }
-
+```
 
 Task 2
+```
 #include <stdio.h>
 
 int main(void) {
@@ -32,3 +34,22 @@ else {
 }
   return 0;
 }
+```
+Task 3
+```
+#include <stdio.h>
+
+int main(void) {
+  int age=0;
+  printf("Enter age\n");
+    scanf("%d" ,&age);
+  \*Use if statement, and bigger than equal to to check if entered age is bigger than or equal to 18, if so the person can vote, otherwise they cannot *\
+  if ( age >= 18 ){
+    printf("Congratulations, you can vote\n");
+  }
+  else {
+printf("Sorry, you are too young to vote\n");
+      }
+  return 0;
+}
+```
