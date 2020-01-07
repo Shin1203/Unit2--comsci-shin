@@ -114,7 +114,7 @@ These are the rules of Boolean Algebra
 
 ![algebrabooleanrules](algebrabooleanrules.gif)
 
-
+s
 Example Diagram
 
 ![logicgatediagram](Logicgatediagram.jpg)
