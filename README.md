@@ -163,9 +163,7 @@ Task 2-Write a C program that checks if a year provided by the user is a gap yea
 https://repl.it/repls/NumbWeakServers
 
 Classwork on C (1/8/2020)
-
-1.https://repl.it/repls/DirectShockingMotion
-2.https://repl.it/repls/TreasuredIdealAccess
+Code for Tasks can be found in repository files- PractisingC Classwork
 
 
 
