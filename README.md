@@ -8,7 +8,11 @@
 ------------------
 **Defining the Problem**
 
-The year is 2050, there is an established Moon base and Mars base. A communication system must be created between earth and mars, and moon and mars. The problem is that the Earth station can only communicate with morse, while the Moon station can only use binary. This communication system has to have an input of english, and output of morse/binary, using only 2 button inputs as well as leds and buzzers. Must also be able to recieve messages- type in binary/morse convert to english.
+The year is 2050, there is an established Moon base and Mars base.
+A communication system must be created between earth and mars, and moon and mars. 
+The problem is that the Earth station can only communicate with morse, while the Moon station can only use binary. 
+This communication system has to have an input of english, and output of morse/binary, using only 2 button inputs as well as leds and buzzers. 
+Must also be able to recieve messages- type in binary/morse convert to english.
 
 **Sucess Criterions**
 MOON BASE OPERATIONS
@@ -130,7 +134,7 @@ Solution- Make a truth table, inputs are A B C, line numbers 0-7 as outputs, the
 ![numbers](numbers.jpg)
 
 
-
+s
 
 
 **What Is Usability???**
