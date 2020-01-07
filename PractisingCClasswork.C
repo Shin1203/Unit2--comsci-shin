@@ -90,3 +90,36 @@ else {
 }
 
 ```
+
+Task5
+```
+#include <stdio.h>
+
+int main(void) {
+  int x=0;
+  int y=0;
+  printf("Enter X coordinate\n");
+ scanf("%d" ,&x);
+ printf("Enter Y coordinate\n");
+ scanf("%d" ,&y);
+
+/*To find which of the quadrants a coordinate is in
+,the if statement checks whether the values of x and Y are positive or negative, */
+ if ( x > 0 && y > 0 ){
+printf("Coordinate lies in quadrant 1");
+ }
+ 
+ if ( x < 0 && y > 0 ){
+printf("Coordinate lies in quadrant 2");
+ }
+
+ if ( x < 0 && y < 0 ){
+printf("Coordinate lies in quadrant 3");
+ }
+
+  if ( x > 0 && y < 0 ){
+printf("Coordinate lies in quadrant 4");
+ }
+  return 0;
+}
+```
