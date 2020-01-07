@@ -53,3 +53,35 @@ printf("Sorry, you are too young to vote\n");
   return 0;
 }
 ```
+
+Task 4
+```
+#include <stdio.h>
+
+int main(void) {
+ int num1=0;
+ int num2=0;
+ int num3=0;
+  printf("Enter number 1\n");
+  scanf("%d" ,&num1);
+  printf("Enter number 2\n");
+  scanf("%d" ,&num2);
+    printf("Enter number 3\n");
+  scanf("%d" ,&num3);
+\*The following if statement checks if every entered number is bigger than the other two, if the condition is met, then a message will print which number is the biggest, with the else statement, if all three numbers are the same a different message is printed *\
+if ( num1 > num2 && num1 > num3 ) {
+  printf("The biggest number is the first, %d", num1);
+}
+else if ( num2 > num1 && num2 > num3 ) {
+  printf("The biggest number is the second, %d", num2);
+}
+else if ( num3 > num1 && num3 > num2 ) {
+  printf("The biggest number is the third, %d", num3);
+}
+else {
+  printf("All three entered numbers are equal");
+}
+
+}
+
+```
