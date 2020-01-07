@@ -45,7 +45,7 @@ int main(void) {
   int age=0;
   printf("Enter age\n");
     scanf("%d" ,&age);
-  \*Use if statement, and bigger than equal to to check if entered age is bigger than or equal to 18, if so the person can vote, otherwise they cannot *\
+  /*Use if statement, and bigger than equal to to check if entered age is bigger than or equal to 18, if so the person can vote, otherwise they cannot */
   if ( age >= 18 ){
     printf("Congratulations, you can vote\n");
   }
@@ -71,9 +71,9 @@ int main(void) {
     printf("Enter number 3\n");
   scanf("%d" ,&num3);
   
-\*The following if statement checks if every entered number is bigger than the other two, 
+/*The following if statement checks if every entered number is bigger than the other two, 
 if the condition is met, then a message will print which number is the biggest,
-with the else statement, if all three numbers are the same a different message is printed *\
+with the else statement, if all three numbers are the same a different message is printed */
 if ( num1 > num2 && num1 > num3 ) {
   printf("The biggest number is the first, %d", num1);
 }
