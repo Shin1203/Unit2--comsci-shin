@@ -155,3 +155,47 @@ int chem=0;
 }
 ```
  
+task 7
+  ```
+  #include <stdio.h>
+
+int main(void) {
+  int temp=0;
+  printf("Enter temperature in centigrade\n");
+  scanf("%d", &temp);
+/* the following if statements will check the various temperature conditions, then print a message if corresponding factors match*/
+
+if ( temp < 0 ){
+  printf("Freezing Weather");
+}
+
+if ( temp >= 0 && temp <= 10 ){
+  printf("very cold weather");
+}
+
+
+if ( temp >= 20 && temp <= 30 ){
+  printf("cold weather");
+}
+
+
+if ( temp >= 20 && temp <= 30 ){
+  printf("Normal in temp");
+}
+
+
+if ( temp >= 30 && temp < 40 ){
+  printf("It is hot");
+}
+
+
+if ( temp >= 40 ){
+  printf("It is very hot");
+}
+
+
+
+
+  return 0;
+}
+  ```
