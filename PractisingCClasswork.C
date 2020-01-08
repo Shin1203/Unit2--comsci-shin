@@ -200,7 +200,8 @@ if ( temp >= 40 ){
 }
   ```
 
-task 8
+Task 8 and Task 9
+    (the two tasks are carried out in one program)
  ```
  #include <stdio.h>
 
@@ -244,3 +245,5 @@ if ( angle1 != angle2 && angle1 != angle3 && angle2 != angle3 ){
   return 0;
 }
  ```
+
+task
