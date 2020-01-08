@@ -199,3 +199,48 @@ if ( temp >= 40 ){
   return 0;
 }
   ```
+
+task 8
+ ```
+ #include <stdio.h>
+
+int main(void) {
+  int angle1=0;
+  int angle2=0;
+  int angle3=0;
+  
+  printf("Enter value of angle 1\n");
+  scanf("%d", &angle1);  
+  printf("Enter value of angle 2\n");
+  scanf("%d", &angle2);
+  printf("Enter value of angle 3\n");
+  scanf("%d", &angle3);
+
+/* if angles do not add up to 180, it is not a triangle*/
+int total=(angle1+angle2+angle3);
+
+if (total != 180){
+  printf("not a triangle\n");
+  return 0;
+}
+
+/*a equilateral triangle's angles are all equal */
+if ( angle1 == angle2 && angle2 == angle3){
+  printf("The triangle is an equilateral\n");
+}
+
+
+/* a isosceles has 2 equal angles */
+if ( angle1 == angle2 || angle2 == angle3 || angle1 == angle3){
+  printf("The triangle is an isosceles\n");
+}
+
+/* a scalene triangle has no equal angles */
+if ( angle1 != angle2 && angle1 != angle3 && angle2 != angle3 ){
+  printf("The triangle is an scalene\n");
+}
+
+
+  return 0;
+}
+ ```
