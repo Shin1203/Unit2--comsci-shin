@@ -246,4 +246,49 @@ if ( angle1 != angle2 && angle1 != angle3 && angle2 != angle3 ){
 }
  ```
 
-task
+task 10
+   #include <stdio.h>
+
+int main(void) {
+/* initialize variables id,units,bill as ints, name as string */
+ int id=0;
+ char name[] = "";
+int units=0;
+int bill=0;
+
+printf("Enter id \n");
+scanf("%d" ,&id);
+printf("Enter name \n");
+scanf("%s", name);
+printf("Enter units \n");
+scanf("%d" ,&units);
+
+if ( units < 200 ) {
+bill=(units*1.20);
+}
+
+if ( units >= 200 && units < 400 ) {
+bill=(units*1.50);
+}
+
+if ( units >= 400 && units < 600 ) {
+bill=(units*1.80);
+}
+
+if ( units >= 600) {
+bill=(units*2);
+}
+
+if (bill > 400){
+  bill = (bill*1.15);
+}
+if (bill < 100){
+  bill = (100);
+}
+
+
+printf(" ID %d", id);
+printf(" Name %s", name);
+printf(" Units %d", units);
+printf(" Your total bill is: %d", bill);
+}
