@@ -84,3 +84,38 @@ for (int i=1;terms>=i; i++){
  
  return 0;
 }
+
+TASK 6
+  /* C Program to find Perfect Number using For Loop */
+
+# include <stdio.h>   
+
+int main()   
+{   
+ int number1=0;
+ int number2=0; 
+ int series=0;
+  
+ printf("\n Please Enter starting value \n") ;   
+ scanf("%d", &number1);   
+  printf("\n Please Enter ending value \n") ;   
+ scanf("%d", &number2);  
+ for(int i=number1; i<number2; i++)   
+  {   
+
+   for(int j=1; j<i; j++ ){
+     if(i%j==0){
+       series=(series+i);
+       
+        }
+        
+   }
+      if(series==i){
+          printf(" %d ", i);
+        }
+  }    
+
+return 0 ;   
+}
+
+TASK 7
