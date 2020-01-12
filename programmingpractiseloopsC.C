@@ -47,3 +47,21 @@ int main(void) {
   }
   return 0;
 }
+
+TASK 4
+  #include <stdio.h>
+
+int main(void) {
+  int number=0;
+  double sum=0;
+  
+
+  printf("Enter number to calculate sum of harmonic series\n");
+  scanf("%d",&number);
+
+  for(double i=1; i<=number; i++){
+sum=(sum+(1/i));
+  }
+  printf("The sum of the harmonic series of %d is %f",number,sum);
+  return 0;
+}
