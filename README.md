@@ -172,7 +172,7 @@ Cycle of processes are as follows- Fetch(retrieve instruction from memory), Deco
 Registries-temporary storages
 Ram-memory
 CPU-executes the programs
-
+![machinecyclewksht](machinecycle.jpg)
 
 
 **CODE**
