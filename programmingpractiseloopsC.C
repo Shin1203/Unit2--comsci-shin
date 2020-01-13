@@ -150,3 +150,25 @@ int main() {
     }
     return 0;
 }
+
+Task 8
+  #include <stdio.h>
+int main()
+{
+  int number=0;
+  int reverse = 0;
+  printf("Enter a number\n");
+  scanf("%d", &number);
+
+  while (number != 0)
+  {
+    reverse = reverse * 10;
+    reverse = reverse + number%10;
+    number = number/10;
+  }
+
+  printf("Reverse of the number = %d\n", reverse);
+
+  return 0;
+}
+
