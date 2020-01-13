@@ -166,7 +166,12 @@ Classwork on C (1/8/2020)
 Code for Tasks can be found in repository files- PractisingC Classwork
 
 
-
+**The Machine Cycle**
+We learned the machine cycle, as well as a program that stores a number 20 into ram slot 14
+Cycle of processes are as follows- Fetch(retrieve instruction from memory), Decode(translate retrieved instruction into commands), Execute(run the command)
+Registries-temporary storages
+Ram-memory
+CPU-executes the programs
 
 
 
