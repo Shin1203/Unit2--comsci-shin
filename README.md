@@ -288,10 +288,14 @@ Introduction homework tasks (1/7/2020)
 
 Task 1- Write a C program that checks if two integers entered by the user are equal
 https://repl.it/repls/SugaryQuarterlyTrials
-https://github.com/Shin1203/Unit2--comsci-shin/blob/master/PractisingCClasswork.C
+
 Task 2-Write a C program that checks if a year provided by the user is a gap year
 https://repl.it/repls/NumbWeakServers
 
 Classwork on C (1/8/2020)
-Code for Tasks can be found in repository files- PractisingC Classwork
+Basic Coding Tasks
+https://github.com/Shin1203/Unit2--comsci-shin/blob/master/PractisingCClasswork.C
+
+Practising with Loops
+
 
