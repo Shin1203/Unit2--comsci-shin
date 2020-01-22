@@ -1,44 +1,6 @@
 # Unit2--comsci-shin
 
-**Project**
-----------------
-1.[Planning](#planning)
 
-**Project Planning** 
-------------------
-**Defining the Problem**
-
-The year is 2050, there is an established Moon base and Mars base.
-A communication system must be created between earth and mars, and moon and mars. 
-The problem is that the Earth station can only communicate with morse, while the Moon station can only use binary. 
-This communication system has to have an input of english, and output of morse/binary, using only 2 button inputs as well as leds and buzzers. 
-Must also be able to recieve messages- type in binary/morse convert to english.
-
-**Sucess Criterions**
-MOON BASE OPERATIONS
--Turn Morse into English
--Turn English into Binary
--Must be easy to use- (operator does not need to understand morse/binary)
--Materials used has to be
-Only 2 buttons
-2-3 Lights
-1 LCD monitor
-Buzzers
-
-
-**Conditions and problems**
--How to dissplay mssg in English?
--How to switch between input (Rx) and sending (7x)
--Morse vs binary
--LED limitations- only 2-3 bulbs per station
-
-**2 buttons to alphabetical words**
-TASK- Create a program that turns 2 button inputs into words, then print them to serial monitor
-IDEA- Make the left button cycle from a-z, right button to select alphabetical letter to add to word, both buttons to print word.
-Implementation- Make array with entire alphabet, when left button pressed, cycle in the array from a-z-a-z, when right button pressed, add the current character in array to the word, press both buttons to relay word to user.
-
-code 
-![alphabet](Alphabet.png)
 
 **CLASSWORK and Development**
 ---------------
@@ -281,7 +243,6 @@ if((stateA && !stateB && stateC)){
 
 
 
-
 ***Learning C***
 ------------------
 Introduction homework tasks (1/7/2020) 
@@ -298,4 +259,45 @@ https://github.com/Shin1203/Unit2--comsci-shin/blob/master/PractisingCClasswork.
 
 Practising with Loops
 https://github.com/Shin1203/Unit2--comsci-shin/edit/master/programmingpractiseloopsC.C
+
+
+**Project**
+----------------
+1.[Planning](#planning)
+
+**Project Planning** 
+------------------
+**Defining the Problem**
+
+The year is 2050, there is an established Moon base and Mars base.
+A communication system must be created between earth and mars, and moon and mars. 
+The problem is that the Earth station can only communicate with morse, while the Moon station can only use binary. 
+This communication system has to have an input of english, and output of morse/binary, using only 2 button inputs as well as leds and buzzers. 
+Must also be able to recieve messages- type in binary/morse convert to english.
+
+**Sucess Criterions**
+MOON BASE OPERATIONS
+-Turn Morse into English
+-Turn English into Binary
+-Must be easy to use- (operator does not need to understand morse/binary)
+-Materials used has to be
+Only 2 buttons
+2-3 Lights
+1 LCD monitor
+Buzzers
+
+
+**Conditions and problems**
+-How to dissplay mssg in English?
+-How to switch between input (Rx) and sending (7x)
+-Morse vs binary
+-LED limitations- only 2-3 bulbs per station
+
+**2 buttons to alphabetical words**
+TASK- Create a program that turns 2 button inputs into words, then print them to serial monitor
+IDEA- Make the left button cycle from a-z, right button to select alphabetical letter to add to word, both buttons to print word.
+Implementation- Make array with entire alphabet, when left button pressed, cycle in the array from a-z-a-z, when right button pressed, add the current character in array to the word, press both buttons to relay word to user.
+
+code 
+![alphabet](Alphabet.png)
 
