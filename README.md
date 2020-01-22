@@ -280,7 +280,10 @@ if((stateA && !stateB && stateC)){
 
 
 
+
+
 ***Learning C***
+------------------
 Introduction homework tasks (1/7/2020) 
 
 Task 1- Write a C program that checks if two integers entered by the user are equal
