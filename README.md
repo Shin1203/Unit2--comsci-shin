@@ -606,7 +606,11 @@ Testing process
 -If yes, check for correct timing based off language
 -Check that message from lightbulb matches with "abc"
 
-
-
-
-<video src="arduinovid1.mp4" poster="numbers.jpg" width="320" height="200" controls preload></video>
+**User Manual**
+The user manual includes a simple list of functionalities for the circuit
+-states purpose of two buttons
+-Tells user that binary is read through ASCII, includes table
+-Provides key for reading morse based on created protocol.
+-Key on what each lightbulb state means in terms of binary/morse
+Link to manual as provided by Lingye
+https://github.com/LingyeWU/CompSci-Unit-2/blob/master/Manual.md?fbclid=IwAR1LKnkk49Am7p0Zf6hUtsXOXtA3uYqHXxGKF3qMTSIqSHAidH9CTBG7iCw
