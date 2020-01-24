@@ -323,6 +323,9 @@ Only 2 buttons
 1 LCD monitor
 Buzzers
 
+**The USER**
+Does not know how to read morse/binary,because of this has to be provided with a user manual that has a descript on how to read the morse/binary that is transmitted by our circuit. The usage of the two buttons and overall functionality must be easily described in the manual. The lcd should provide the user with ease of use, and should not be overtly complex. 
+
 **Conditions and problems**
 -How to dissplay mssg in English?
 -How to switch between input (Rx) and sending (7x)
