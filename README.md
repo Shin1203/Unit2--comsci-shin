@@ -628,3 +628,8 @@ The user manual includes a simple list of functionalities for the circuit
 -Key on what each lightbulb state means in terms of binary/morse
 Link to manual as provided by Lingye
 https://github.com/LingyeWU/CompSci-Unit-2/blob/master/Manual.md?fbclid=IwAR1LKnkk49Am7p0Zf6hUtsXOXtA3uYqHXxGKF3qMTSIqSHAidH9CTBG7iCw
+
+
+
+**Evaluation**
+---------------
