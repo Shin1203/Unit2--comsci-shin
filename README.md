@@ -315,6 +315,9 @@ Flowchart for process in Morse to binary
 ![morsetobinary](morseduh.png)
 
 **CODE**
+Arduino circuitry for program-
+
+
 ```
 // include the library code:
 #include <LiquidCrystal.h>
