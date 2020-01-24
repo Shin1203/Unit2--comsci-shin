@@ -307,3 +307,6 @@ Flowchart for Keyboard usage
 
 Flowchart for when "Send binary" is selected
 ![binary](sendbinary.png)
+
+Flowchart for process in Morse to binary
+![morsetobinary](morseduh.png)
