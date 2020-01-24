@@ -585,4 +585,5 @@ Many problems with the arudino board itself- any loose connections or wrong pin 
 Combining the two programs with different functions into one involved many bug fixes
 
 Testing Sending Binary function
+
 <video src="arduinovid1.mp4" width="320" height="200" controls preload></video>
