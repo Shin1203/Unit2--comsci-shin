@@ -579,3 +579,8 @@ void sentmorse(){
     ```
     
 **Development and testing**
+Initial problems with testing included timing of lightbulb flashes- lighbulbs would flash at a much faster pace than coded, variable numbers were adjusted accordingly
+Many problems with the arudino board itself- any loose connections or wrong pin numbers would cause problems 
+Combining the two programs with different functions into one involved many bug fixes
+
+Testing 
