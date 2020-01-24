@@ -315,7 +315,8 @@ Flowchart for process in Morse to binary
 ![morsetobinary](morseduh.png)
 
 **CODE**
-``// include the library code:
+```
+// include the library code:
 #include <LiquidCrystal.h>
 int index = 0; 
 // add all the letters and digits to the keyboard
@@ -545,4 +546,4 @@ void sentmorse(){
       delay(off);
       
     }
-    ``
+    ```
