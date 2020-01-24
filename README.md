@@ -132,6 +132,15 @@ Ram-memory
 CPU-executes the programs
 ![machinecyclewksht](machinecycle.jpg)
 
+**Security Protocols**
+IP-provides address for two devices coneccting, provides encryption of packets
+Http- the basis for internet communications, is client-server sided, used by most websites
+FTP- provides security for file transfers  from server to client
+SMTP/POP3- used to send and recieve emails respectively
+VPN- allows for the encryption of internet connections, as well as location spoofing.
+SSH- used for remote logins to other devices
+
+
 
 **Learning CODE**
 ----------
@@ -584,6 +593,20 @@ Initial problems with testing included timing of lightbulb flashes- lighbulbs wo
 Many problems with the arudino board itself- any loose connections or wrong pin numbers would cause problems 
 Combining the two programs with different functions into one involved many bug fixes
 
-Testing Sending Binary function
+Testing process
+-Connect circuit to computer
+-Check for functionality of lcd monitor
+-Check if lightbulbs are lit
+-Check that two buttons are responding, and serving intended functions
+   -is button one properly cycling through all options on keyboard?
+   -Will button two input data in correct position at top row?
+-Enter "abc" 
+-Select communication method
+-Check if lightbulbs respond by blinking
+-If yes, check for correct timing based off language
+-Check that message from lightbulb matches with "abc"
+
+
+
 
 <video src="arduinovid1.mp4" poster="numbers.jpg" width="320" height="200" controls preload></video>
