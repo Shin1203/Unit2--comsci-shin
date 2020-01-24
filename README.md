@@ -2,6 +2,7 @@
 **INTRODUCTION**
 -----------------
 In unit 2, the ultimate goal is to build a program that will communicate in morse/binary through leds and using an arduino. We have learned about arduino C, using tinkercad, counting in bases as well as binary concepts and morse, among other things.
+*Class journal is stored in issues
 
 **Advantages, disadvantages of bash and C**
 
