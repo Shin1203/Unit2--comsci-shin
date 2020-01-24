@@ -586,4 +586,4 @@ Combining the two programs with different functions into one involved many bug f
 
 Testing Sending Binary function
 
-<video src="arduinovid1.mp4" width="320" height="200" controls preload></video>
+<video src="arduinovid1.mp4" poster="numbers.jpg" width="320" height="200" controls preload></video>
