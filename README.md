@@ -297,8 +297,12 @@ Buzzers
 TASK- Create a program that turns 2 button inputs into words, then print them to serial monitor, the program must allow for the user to switch between morse and binary through only the 2 buttons.
 IDEA- Make the left button cycle from a-z, right button to select alphabetical letter to add to word, both buttons to print word.
 
-Implementation- One button is used for cycling through a "keyboard" as displayed on the lcd monitor. The options
+Implementation- One button is used for cycling through a "keyboard" as displayed on the lcd monitor. The options will allow for selection of the different conversions- english to morse, english to binary, morse to binary. When one of these conversion methods are selected by button 2, the lights will transmit the typed in message. The two button cycling method makes usage very simple, without limiting any functionality of the program.
 
-code 
+code for proof of concept of digital keyboard and cycling.
 ![alphabet](Alphabet.png)
+
+Flowchart for Keyboard usage
+![keyboard](keyboard.jpg)
+
 
