@@ -297,9 +297,7 @@ Practising with Loops
 https://github.com/Shin1203/Unit2--comsci-shin/edit/master/programmingpractiseloopsC.C
 
 
-**Project**
-----------------
-1.[Planning](#planning)
+
 
 **Project Planning** 
 ------------------
@@ -332,7 +330,7 @@ Does not know how to read morse/binary,because of this has to be provided with a
 -Discussing with Earth and Moon base the communication method of morse and binary through lightbulbs
 -Switching between the different modes of communication
 
-**2 buttons to alphabetical words**
+**2 buttons to alphabetical words proof of concept**
 TASK- Create a program that turns 2 button inputs into words, then print them to serial monitor, the program must allow for the user to switch between morse and binary through only the 2 buttons.
 IDEA- Make the left button cycle from a-z, right button to select alphabetical letter to add to word, both buttons to print word.
 
