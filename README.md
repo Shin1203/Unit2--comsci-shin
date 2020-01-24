@@ -5,8 +5,16 @@ In unit 2, the ultimate goal is to build a program that will communicate in mors
 
 *Class journal is stored in issues
 
-**Advantages, disadvantages of bash and C**
+**Arduino C**
+C++ is a widely used programming language, mainly utilized in applications,server-applications and drivers.
+Advantages of C++ include: Easy to learn given previous knowledge in programming, well structured with defined variable types, versatile(utilized in many ways), due to being a popular language it has many resources online, Fast, has a code editor system, and importantly for us, it works with arduino.
+We will be using C++ to code our arduino creations. When compared with bash, C++ is a much more useful and powerful language.
 
+**What is an arduino?**
+Arduino is an electronics platform, the boards allow for reading of inputs and turning them into outputs. A circuit can be made with an arduino board and other electrical parts, and be programmed to fufill a task coded in C++ or C. Arduino is convenient to us as it is very simple to put together and dissasemble, and does not require us to search for specific electrical parts, or have to hassle with how to program something on it. Usage is very simple, and arduino's usage of C allows us to learn it with relative ease
+
+**Tinkercad**
+On tinkercad we can create virtual arduino circuits, and test them with code. Tinkercad is very useful for writing code as it has a code editor functionality, and we will be using it to learn new arduino concepts, as well as testing prototypes of arduino circuits to make sure they work.
 
 
 **CLASSWORK and Development**
