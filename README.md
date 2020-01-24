@@ -103,15 +103,7 @@ This works by mapping the possible inputs/outputs on a table, pairing 1s and fin
 ![kmap](kmap.jpg)
 
 
-**Segments Converter**
 
-Task- using leds, make a number display going from 0-7 which operates on 3 buttons
-Solution- Make a truth table, inputs are A B C, line numbers 0-7 as outputs, then individually look at which leds will have value 1, 0 for each number displayed, using these values, make kmaps to figure out what to code.
-
-![numbers](numbers.jpg)
-
-
-s
 
 
 **What Is Usability???**
@@ -143,6 +135,15 @@ CPU-executes the programs
 
 **Learning CODE**
 ----------
+
+
+**Segments Converter**
+
+Task- using leds, make a number display going from 0-7 which operates on 3 buttons
+Solution- Make a truth table, inputs are A B C, line numbers 0-7 as outputs, then individually look at which leds will have value 1, 0 for each number displayed, using these values, make kmaps to figure out what to code.
+
+![numbers](numbers.jpg)
+
 Learning to use arduino
 1 configuring 3leds 
 
@@ -255,7 +256,18 @@ if((stateA && !stateB && stateC)){
 }
 }
 
+**Variable Types in C++**
+Utilized Variables
+-Integer(stores 16-bit numbers)
+-String(capable of storing words)
+-arrays(able to store values seperately and pull information when needed)
+-Bool(Stores true or false)
+-Double/Float(Capable of storing and calculating decimals)
+-Long(Capable of storing larger numbers- up to 32bits)
+-Void(used to declare functions)
 
+**What is an interrupt?**
+An interrupt will always trigger when the conditions for it are met, this allows for the program to carry out other processes without having to constantly loop to do something. An interrupt is useful for timing and reading user inputs.
 
 
 ***Learning C***
