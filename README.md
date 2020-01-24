@@ -617,6 +617,8 @@ Combining the two programs with different functions into one involved many bug f
 
 -Check that message from lightbulb matches with "abc"
 
+TESTING VIDEOS
+https://drive.google.com/open?id=1qQ4Eox5baYPHkbKdxaPC5CMZk2QyZ0x0
 
 **User Manual**
 The user manual includes a simple list of functionalities for the circuit
