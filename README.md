@@ -596,18 +596,29 @@ Initial problems with testing included timing of lightbulb flashes- lighbulbs wo
 Many problems with the arudino board itself- any loose connections or wrong pin numbers would cause problems 
 Combining the two programs with different functions into one involved many bug fixes
 
-Testing process
+**Testing process**
 -Connect circuit to computer
+
 -Check for functionality of lcd monitor
+
 -Check if lightbulbs are lit
+
 -Check that two buttons are responding, and serving intended functions
-   -is button one properly cycling through all options on keyboard?
-   -Will button two input data in correct position at top row?
+
+  -is button one properly cycling through all options on keyboard?
+
+  -Will button two input data in correct position at top row?
+
 -Enter "abc" 
+
 -Select communication method
+
 -Check if lightbulbs respond by blinking
+
 -If yes, check for correct timing based off language
+
 -Check that message from lightbulb matches with "abc"
+
 
 **User Manual**
 The user manual includes a simple list of functionalities for the circuit
