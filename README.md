@@ -305,4 +305,5 @@ code for proof of concept of digital keyboard and cycling.
 Flowchart for Keyboard usage
 ![keyboard](keyboard.jpg)
 
-
+Flowchart for when "Send binary" is selected
+![binary](sendbinary.png)
