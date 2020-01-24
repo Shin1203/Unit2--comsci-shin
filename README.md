@@ -277,26 +277,27 @@ Must also be able to recieve messages- type in binary/morse convert to english.
 
 **Sucess Criterions**
 MOON BASE OPERATIONS
--Turn Morse into English
--Turn English into Binary
+-Type in english and output morse
+-Type in english and output binary
+-Convert Morse to Binary
 -Must be easy to use- (operator does not need to understand morse/binary)
 -Materials used has to be
 Only 2 buttons
-2-3 Lights
+2 Lightbulbs 
 1 LCD monitor
 Buzzers
-
 
 **Conditions and problems**
 -How to dissplay mssg in English?
 -How to switch between input (Rx) and sending (7x)
--Morse vs binary
--LED limitations- only 2-3 bulbs per station
+-Discussing with Earth and Moon base the communication method of morse and binary through lightbulbs
+-Switching between the different modes of communication
 
 **2 buttons to alphabetical words**
-TASK- Create a program that turns 2 button inputs into words, then print them to serial monitor
+TASK- Create a program that turns 2 button inputs into words, then print them to serial monitor, the program must allow for the user to switch between morse and binary through only the 2 buttons.
 IDEA- Make the left button cycle from a-z, right button to select alphabetical letter to add to word, both buttons to print word.
-Implementation- Make array with entire alphabet, when left button pressed, cycle in the array from a-z-a-z, when right button pressed, add the current character in array to the word, press both buttons to relay word to user.
+
+Implementation- One button is used for cycling through a "keyboard" as displayed on the lcd monitor. The options
 
 code 
 ![alphabet](Alphabet.png)
