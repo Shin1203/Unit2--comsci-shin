@@ -633,4 +633,9 @@ https://github.com/LingyeWU/CompSci-Unit-2/blob/master/Manual.md?fbclid=IwAR1LKn
 
 **Evaluation**
 ---------------
-Success !!
+Success Criterions
+-Tools used were all what we were supposed to use- 2buttons, 2 leds, 1lcd monitor and arduino
+-Usability- User interface is simple to use, user manual gives comprehensive guide on how to use the program, the circuit does not require pre-knowledge of morse/binary to use
+-Fucntionality- circuit capable of sending morse and binary through typing in full english keyboard, leds are timed to manual standard, program is also capable of converting morse to binary and vice versa. 
+-All success criterions discussed in planning are fufilled
+
